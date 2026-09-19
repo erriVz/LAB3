@@ -2,4 +2,51 @@ body {
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background: #081c1c;
+}
+
+header {
+    height: 72px;
+    color: #0f5c45;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 35px;
+}
+
+h1 {
+    color: #0f5c45;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+
+}
+
+.logotyp-header {
+    width: 62px;
+    height: 62px;
+
+
+}
+
+header nav {
+    color: #f4f7f2;
+    
+}
+
+@media (max-width: 420px) {
+
+    body {
+        background: #081c1c;
+        width: 100%;
+    }
+
+    header {
+        padding: 10px 12px;
+
+    }
+
 }
