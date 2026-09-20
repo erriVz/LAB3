@@ -54,7 +54,43 @@ header {
 
     }
 
+.hero {
+    width: 100%;
+    
 
+
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    h2{
+        font-size: 19px;
+        color: #F4F7F2;
+        margin: 0 10 20px;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 10px;
+        line-height: 1.4;
+        text-align: center;
+        padding: 0 20px 20px;
+    }
+
+    .knapp {
+        background-color:#FF6B35;
+        color: #F4F7F2;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 12px 24px;
+        
+
+
+    }
+}
     
 
 
@@ -67,6 +103,7 @@ header {
 
     header {
         padding: 10px 12px;
+        
 
         .header-del {
             flex-direction: row;
@@ -86,4 +123,38 @@ header {
 
     }
 
+    .hero {
+        position: relative;
+    
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        h2{
+            position: absolute;
+            left: 8%;
+            width: 40%;
+            text-align: left;
+            top: 30%;
+            font-size: 32px;
+            color: #F4F7F2;
+            margin: 0;
+        }
+        p{
+            position: absolute;
+            left: 8%;
+            width: 40%;
+            text-align: left;
+            top: 50%;
+            font-size: 14px;
+            padding: 0;
+        }
+        .knapp{
+            position: absolute;
+            left: 8%;
+            top: 70%;
+        
+        }
+    }
 }
