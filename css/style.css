@@ -68,11 +68,11 @@ header {
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            padding: 0 30px;
+            padding: 0 70px;
         }
 
-        h1 {
-            font-size: 600px;
+        .logo-text h1 {
+            font-size: 60px;
         }
 
         nav ul{
