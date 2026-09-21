@@ -185,13 +185,14 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "img img" "footertext footertext" "footerkontakt footerlänkar";
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: #F4F7F2;
 
 
-    h7{
+    h6{
        font-size: 20px; 
+       margin: 0;
     }
 
     p{
@@ -387,7 +388,7 @@ footer{
             margin: 0;
         }
 
-        h7{
+        h6{
             font-size: 28px;
             padding-top: 0;
             margin-top: 0;
