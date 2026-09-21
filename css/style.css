@@ -96,7 +96,22 @@ header {
 
     }
 }
-    
+
+.nära-naturen {
+    background-color: #D9D9D9;
+    color: #000000;
+
+    h3{
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    p{
+        text-align: center;
+        font-size: 10px;
+        padding: 0 10px 20px;
+    }
+}
 
 
 
@@ -161,6 +176,18 @@ header {
             left: 8%;
             top: 70%;
         
+        }
+    }
+
+    .nära-naturen{
+        h3{
+        font-size: 30px;
+        }
+
+        p{
+            font-size: 12px;
+            max-width: 600px;
+            margin: 0 auto;
         }
     }
 }
