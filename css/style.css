@@ -285,5 +285,34 @@ header {
         
     }
 
-    
+    .planera{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 40px 70px;
+        text-align: left;
+
+        .text-del{
+            display: flex;
+            flex-direction: column;
+            
+            h6{
+                font-size: 35px;
+                margin: 0 0 10px;
+            }
+
+            p{
+                font-size: 15px;
+                padding: 0;
+                margin-right: 30%;
+            }
+        }
+
+        .knapp {
+            margin: 0;
+            flex-shrink: 0;
+        }
+    }
 }
