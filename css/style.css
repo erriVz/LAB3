@@ -159,6 +159,26 @@ header {
         
 }
 
+.planera {
+    text-align: center;
+    color: #000000;
+    background-color: #D9D9D9;
+    padding-top: 2px;
+    margin-top: 10%;
+    
+    h6{
+        font-size: 19px;
+        margin: 5%;
+    }
+
+    p{
+        font-size: 10px;
+        padding: 0 20px 20px;
+
+    }
+
+    
+}
     
 
 
@@ -264,4 +284,6 @@ header {
 
         
     }
+
+    
 }
