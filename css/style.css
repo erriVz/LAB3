@@ -8,6 +8,18 @@ body {
     margin: 0;
 }
 
+.knapp {
+        background-color:#FF6B35;
+        color: #F4F7F2;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 12px 24px;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+}
+
 header {
     background-color: #081c1c;
     color: #0f5c45;
@@ -80,21 +92,6 @@ header {
         padding: 0 20px 10px;
     }
 
-    .knapp {
-        background-color:#FF6B35;
-        color: #F4F7F2;
-        border: none;
-        border-radius: 10px;
-        text-decoration: none;
-        padding: 12px 24px;
-        display: block;
-        width: fit-content;
-        margin: 0 auto;
-        
-        
-
-
-    }
 }
 
 .nära-naturen {
