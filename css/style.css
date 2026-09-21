@@ -164,6 +164,7 @@ header {
     color: #000000;
     background-color: #D9D9D9;
     padding-top: 2px;
+    padding-bottom: 20px;
     margin-top: 10%;
     
     h6{
@@ -178,6 +179,19 @@ header {
     }
 
     
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+    img{
+        display: block;
+        margin: auto;
+        width: 30%;
+        
+    }
 }
     
 
