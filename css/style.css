@@ -243,4 +243,28 @@ header {
             margin: 0 auto;
         }
     }
+
+    
+    .upplev{
+
+        h4{
+            font-size: 30px;
+            margin: 40px 20px;
+        }
+        .puffar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+
+        .puff{
+            size: 30%;
+            margin: 40px;
+            margin-top: 0;
+        }
+        }
+
+        
+    }
 }
